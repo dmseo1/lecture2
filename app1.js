@@ -19,4 +19,3 @@ app.listen(port, () => {
 app.get('/a', (request, response, next) => {
     response.send("<img src='./horse.jpg' alt='경로에 문제가 있음'/>");
 });
-
